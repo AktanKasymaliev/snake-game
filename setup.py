@@ -22,7 +22,7 @@ class SnakeGame:
         self.clock = pygame.time.Clock()
         self.font_score = pygame.font.SysFont('Arial', 26, bold=True)
         self.font_end = pygame.font.SysFont('Arial', 66, bold=True)
-        self.img = pygame.image.load('1.jpg').convert()
+        self.img = pygame.image.load('fon.jpg').convert()
 
     @staticmethod
     def close_game():
